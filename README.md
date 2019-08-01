@@ -3,11 +3,11 @@ Create your own dictionary by adding your own words and translations with exampl
 
 ## Running the Code
 - Type `python3 dict.py` on your terminal.
-- You will see `$ Word(1) or Quit(2):` prompt on your screen. Type `1` to add new words and `2`to quit program.
+- You will see `$ Word(1) or Export PDF(2) or  Quit(3)::` prompt on your screen. Type `1` to add new words and `2`to export your vocabulary to PDF file and `3`to quit program.
 - If you type `1` you can complete the inputs as such:
 
 [![](https://github.com/erdemtuna/personal-dictionary/blob/master/usage/usage-1.PNG)]()
-- After adding new entries, you can decide to continue or terminate the event.
+- After adding new entries, you can decide to export a PDF or terminate the event.
 
 [![](https://github.com/erdemtuna/personal-dictionary/blob/master/usage/usage-2.PNG)]()
 - State diagram of the proram is given below:
