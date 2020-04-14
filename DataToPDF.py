@@ -68,8 +68,9 @@ class DataToPDF(object):
         p.wrapOn(self.c, self.width-50, self.height)
         p.drawOn(self.c, *self.coord(12, 25, mm))
         ptext = '''
-        Sources: theguardian.com, ft.com, nytimes.com, washingtonpost.com, economist.com,
-	oxfordlearnersdictionaries.com, collinsdictionary.com, https://www.macmillandictionary.com/
+        Sources: https://theguardian.com, https://ft.com, https://nytimes.com, https://washingtonpost.com,
+	https://economist.com, https://oxfordlearnersdictionaries.com,
+	https://collinsdictionary.com, https://www.macmillandictionary.com/
         '''
         style_Body = ParagraphStyle(
             name='Body', fontName='Times-Roman', fontSize=11, alignment=TA_LEFT)
